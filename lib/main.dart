@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pets_ui/view/adoption_home/adoption_screen.dart';
-
 import 'view/menu_frame/menu_frame.dart';
 
 void main() {

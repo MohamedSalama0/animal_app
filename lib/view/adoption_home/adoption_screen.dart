@@ -13,8 +13,14 @@ class Animal {
   double age;
   String distanceToUser;
   bool isFemale;
-  String imageUrl;
+  Image image;
   Color backgroundColor;
+  Image get d => image = Image(
+        height: 180.0,
+        fit: BoxFit.fitHeight,
+        width: 20,
+        // image: '',
+      );
 
   Animal({
     this.name,
@@ -22,7 +28,7 @@ class Animal {
     this.age,
     this.distanceToUser,
     this.isFemale,
-    this.imageUrl,
+    this.image,
     this.backgroundColor,
   });
 }
@@ -43,7 +49,7 @@ class _AdoptionScreenState extends ConsumerState<AdoptionScreen> {
       age: 2.0,
       distanceToUser: '3.6 km',
       isFemale: true,
-      imageUrl: AssetsManager.cat2,
+      image: Image.asset(AssetsManager.cat1),
       backgroundColor: Color.fromRGBO(203, 213, 216, 1.0),
     ),
     Animal(
@@ -52,8 +58,32 @@ class _AdoptionScreenState extends ConsumerState<AdoptionScreen> {
       age: 1.5,
       distanceToUser: '7.8 km',
       isFemale: false,
-      imageUrl: AssetsManager.cat1,
+      image: Image.asset(AssetsManager.cat2),
       backgroundColor: Color.fromRGBO(237, 214, 180, 1.0),
+    ),
+    Animal(
+      name: 'Birman',
+      scientificName: 'Abyssinian cat',
+      age: 15,
+      distanceToUser: '7.8 km',
+      isFemale: false,
+      image: Image.asset(
+        AssetsManager.cat3,
+        height: 25,
+      ),
+      backgroundColor: Color.fromRGBO(194, 180, 237, 1),
+    ),
+    Animal(
+      name: 'Angora',
+      scientificName: 'Abyssinian cat',
+      age: 18,
+      distanceToUser: '7.8 km',
+      isFemale: true,
+      image: Image.asset(
+        AssetsManager.cat4,
+        height: 25,
+      ),
+      backgroundColor: Color.fromRGBO(174, 215, 206, 1),
     ),
   ];
 
@@ -416,6 +446,7 @@ class _AdoptionScreenState extends ConsumerState<AdoptionScreen> {
                                 Icon(
                                   FontAwesomeIcons.robot,
                                   color: Colors.white,
+
                                   /// kjsadhkjaslkkljkaslkdjlwlkaksdjf
                                 ),
                                 SizedBox(
@@ -599,13 +630,7 @@ class _AdoptionScreenState extends ConsumerState<AdoptionScreen> {
                                           ),
                                           Hero(
                                             tag: animal.name,
-                                            child: Image(
-                                              image:
-                                                  AssetImage(animal.imageUrl),
-                                              height: 220.0,
-                                              fit: BoxFit.fitHeight,
-                                              width: w * 0.4,
-                                            ),
+                                            child: animal.image,
                                           ),
                                         ],
                                         alignment: Alignment.center,
