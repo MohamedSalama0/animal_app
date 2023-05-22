@@ -8,11 +8,12 @@ import 'view/adoption_home/adoption_screen.dart';
 class AnimalDetailScreen extends StatelessWidget {
   final Animal animal;
 
-  AnimalDetailScreen({@required this.animal});
+  AnimalDetailScreen({required this.animal});
 
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
+    final w = MediaQuery.of(context).size.width;
 
     return Scaffold(
       body: Stack(
@@ -54,12 +55,11 @@ class AnimalDetailScreen extends StatelessWidget {
                   ),
                   Container(
                     height: screenHeight * 0.35,
+                    width: w / 1.2,
                     child: Hero(
                       tag: animal.name,
-                      child: Image(
-                        image: AssetImage(AssetsManager.cat1),
-                        fit: BoxFit.fitHeight,
-                      ),
+                      child: animal.image,
+                      // fit: BoxFit.fitHeight,
                     ),
                   ),
                 ],
@@ -81,7 +81,7 @@ class AnimalDetailScreen extends StatelessWidget {
                         children: <Widget>[
                           CircleAvatar(
                             radius: 22.0,
-                            backgroundImage: AssetImage(AssetsManager.cat1),
+                            backgroundImage: animal.image.image,
                           ),
                           SizedBox(
                             width: 10.0,

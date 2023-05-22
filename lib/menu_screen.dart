@@ -6,7 +6,7 @@ import 'main.dart';
 class MenuScreen extends StatefulWidget {
   final Function(int) menuCallback;
 
-  MenuScreen({this.menuCallback});
+  MenuScreen({required this.menuCallback});
   @override
   _MenuScreenState createState() => _MenuScreenState();
 }

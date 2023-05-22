@@ -10,11 +10,11 @@ class MenuFrame extends StatefulWidget {
 
 class _MenuFrameState extends State<MenuFrame>
     with SingleTickerProviderStateMixin {
-  AnimationController _animationController;
-  Animation<double> scaleAnimation, smallerScaleAnimation;
+  late AnimationController _animationController;
+  late Animation<double> scaleAnimation, smallerScaleAnimation;
   Duration duration = Duration(milliseconds: 200);
   bool menuOpen = true;
-  List<Animation> scaleAnimations;
+  late List<Animation> scaleAnimations;
 
   @override
   void initState() {
@@ -51,7 +51,7 @@ class _MenuFrameState extends State<MenuFrame>
           )),
     ),
   };
-  List<Widget> screenSnapshot;
+  late List<Widget> screenSnapshot;
 
   List<Widget> finalStack() {
     List<Widget> stackToReturn = [];
