@@ -9,4 +9,8 @@ class AssetsManager {
   static const dog2 = '${basePath}dog2.png';
   static const dog3 = '${basePath}dog3.png';
   static const dog4 = '${basePath}dog4.png';
+  static const bird1 = '${basePath}bird1.png';
+  static const bird2 = '${basePath}bird2.png';
+  static const bird3 = '${basePath}bird3.png';
+  static const bird4 = '${basePath}bird4.png';
 }

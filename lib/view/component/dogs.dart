@@ -13,9 +13,10 @@ class Dogs extends StatelessWidget {
       Animal(
         name: 'Golden',
         scientificName: 'Dog breed',
-        age: 12,
+        age: '10-12',
         distanceToUser: '1.1 km',
         isFemale: true,
+        description: 'The Golden Retriever is a Scottish breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. It is commonly kept as a pet and is among the most frequently registered breeds in several Western countries.',
         image: Image.asset(
           AssetsManager.dog1,
           width: w * 0.33,
@@ -26,9 +27,10 @@ class Dogs extends StatelessWidget {
       Animal(
         name: 'Husky',
         scientificName: 'Dog breed',
-        age: 15,
+        age: '12-15',
         isFemale: false,
         distanceToUser: '7.8 km',
+        description: 'The Siberian Husky is a medium-sized working sled dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings, and is smaller than the similar-looking Alaskan Malamute. ',
         image: Image.asset(
           AssetsManager.dog2,
           // scale: 3.5,
@@ -39,9 +41,10 @@ class Dogs extends StatelessWidget {
       Animal(
         name: 'Eskimo',
         scientificName: 'Dog breed',
-        age: 14,
+        age: '13-15',
         distanceToUser: '5.2 km',
         isFemale: false,
+        description: 'The American Eskimo Dog is a breed of companion dog, originating in Germany. The American Eskimo Dog is a member of the Spitz family. It is considered an ancient dog breed due to its recent admixture with wolves. ',
         image: Image.asset(
           AssetsManager.dog3,
           // scale: 3.2,
@@ -52,8 +55,9 @@ class Dogs extends StatelessWidget {
       Animal(
         name: 'Maltipoo',
         scientificName: 'Abyssinian cat',
-        age: 11,
+        age: '10-13',
         distanceToUser: '3.5 km',
+        description: 'The Maltipoo is a winning combination of a Maltese and poodle. Gentle, playful, and highly intelligent, this hybrid inherits every positive quality from each parent breed, making them a smart, active and affectionate crossbreed. Maltipoos are patient, kind companions for everyone young and old.',
         isFemale: true,
         image: Image.asset(
           AssetsManager.dog4,

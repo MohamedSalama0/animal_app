@@ -1,73 +1,71 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
 import '../../animal_detail_screen.dart';
 import '../../resources/assetManager.dart';
 import '../adoption_home/adoption_screen.dart';
 
-class Cats extends StatelessWidget {
-  Cats({key}) : super(key: key);
+class Birds extends StatelessWidget {
+  Birds({ key}) : super(key: key);
 
   List<Animal> animals(double w) {
     return [
       Animal(
-        name: 'Sola',
-        scientificName: 'Abyssinian cat',
-        age: '9-13',
-        distanceToUser: '3.6 km',
-        description: 'The Abyssinian is a breed of domestic short-haired cat with a distinctive "ticked" tabby coat, in which individual hairs are banded with different colors. They are also known simply as Abys.',
+        name: 'Parrots',
+        scientificName: 'Amazona',
+        age: '20-60',
+        distanceToUser: '1.1 km',
         isFemale: true,
+        description: 'The Amazon parrots originated around the areas of South America, Mexico, and the Caribbean. They are noted for their ability to imitate the human speech and various other sounds, making them good pets and companions. They are mainly green but with accenting colours that can sometimes be vivid. Amazon parrots can be territorial and often show their emotions through their feathers.',
         image: Image.asset(
-          AssetsManager.cat1,
+          AssetsManager.bird1,
           width: w * 0.4,
           // scale: 3.2,
-          fit: BoxFit.fitHeight,
         ),
         backgroundColor: Color.fromRGBO(203, 213, 216, 1.0),
       ),
       Animal(
-        name: 'Orion',
-        scientificName: 'Abyssinian cat',
-        age: '7-15',
+        name: 'Macaw',
+        scientificName: 'Psittacidae',
+        age: '20-50',
         isFemale: false,
+        description: 'Macaws are a group of New World parrots that are long-tailed and often colorful. They are popular in aviculture or as companion parrots, although there are conservation concerns about several species in the wild.',
         distanceToUser: '7.8 km',
-        description: 'The Abyssinian is a slender, fine-boned, medium-sized cat. The head is moderately wedge-shaped, with a slight break at the muzzle, and nose and chin ideally forming a straight vertical line when viewed in profile. They have alert, relatively large pointed ears. The eyes are almond-shaped and are gold, green, hazel or copper depending on coat color. ',
         image: Image.asset(
-          AssetsManager.cat2,
-          fit: BoxFit.fitHeight,
+          AssetsManager.bird2,
           // scale: 3.5,
           width: w * 0.4,
         ),
-        backgroundColor: Color.fromRGBO(237, 214, 180, 1.0),
+        backgroundColor: Color.fromRGBO(207, 207, 207, 0.78),
       ),
       Animal(
-        name: 'Birman',
-        scientificName: 'Abyssinian cat',
-        age: '9-13',
-        distanceToUser: '7.8 km',
+        name: 'Parrot',
+        scientificName: 'Psittaciformes',
+        age: '15-50',
+        distanceToUser: '5.2 km',
         isFemale: false,
-        description: 'The Birman, also called the "Sacred Cat of Burma", is a domestic cat breed. The Birman is a long-haired, colour-pointed cat distinguished by a silky coat, deep blue eyes, and contrasting white "gloves" on each paw. The breed name is derived from Birmanie, the French form of Burma.',
+        description: 'Parrots, also known as psittacines, are birds of the roughly 398 species in 92 genera comprising the order Psittaciformes, found mostly in tropical and subtropical regions. The order is subdivided into three superfamilies: the Psittacoidea, the Cacatuoidea, and the Strigopoidea.',
         image: Image.asset(
-          AssetsManager.cat3,
-          fit: BoxFit.cover,
+          AssetsManager.bird3,
           // scale: 3.2,
           width: w * 0.4,
         ),
-        backgroundColor: Color.fromRGBO(194, 180, 237, 1),
+        backgroundColor: Color.fromRGBO(44, 140, 172, 0.864),
       ),
       Animal(
-        name: 'Angora',
-        scientificName: 'Abyssinian cat',
-        age: '12-18',
-        distanceToUser: '7.8 km',
-        description: 'The Turkish Angora is a breed of domestic cat. Turkish Angoras are one of the ancient, natural breeds of cat, having originated in central Anatolia. The breed has been documented as early as the 17th century. Outside of the United States, the breed is usually referred to as simply the Angora or Ankara cat.',
+        name: 'Budgerigar',
+        scientificName: 'Melopsittacus undulatus',
+        age: '8',
+        distanceToUser: '3.5 km',
         isFemale: true,
+        description: 'The budgerigar, also known as the common parakeet, shell parakeet or budgie, is a small, long-tailed, seed-eating parrot. Budgies are the only species in the genus Melopsittacus. Naturally, the species is green and yellow with black, scalloped markings on the nape, back, and wings.',
         image: Image.asset(
-          AssetsManager.cat4,
+          AssetsManager.bird4,
           // scale: 3.2,
 
           width: w * 0.4,
         ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+        backgroundColor: Color.fromRGBO(189, 215, 174, 1),
       ),
     ];
   }

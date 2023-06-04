@@ -95,7 +95,7 @@ class AnimalDetailScreen extends StatelessWidget {
                                       MainAxisAlignment.spaceBetween,
                                   children: <Widget>[
                                     Text(
-                                      'Maya Berkovskaya',
+                                      'The owner Name ',
                                       style: TextStyle(
                                         color: Theme.of(context).primaryColor,
                                         fontSize: 16.0,
@@ -103,7 +103,7 @@ class AnimalDetailScreen extends StatelessWidget {
                                       ),
                                     ),
                                     Text(
-                                      'May 25, 2019',
+                                      'May 20, 2023',
                                       style: TextStyle(
                                         color: Colors.grey,
                                         fontWeight: FontWeight.w600,
@@ -128,9 +128,9 @@ class AnimalDetailScreen extends StatelessWidget {
                       ),
                       SizedBox(
                         height: 20.0,
-                      ),
+                      ), 
                       Text(
-                        'My job requires moving to another country. I don\'t have the opportunity to take the cat with me. I am looking for good people who will shelter Sola.',
+animal.description.toString(),
                         style: TextStyle(
                           color: Colors.grey,
                           fontWeight: FontWeight.w600,
@@ -142,58 +142,6 @@ class AnimalDetailScreen extends StatelessWidget {
                 ),
                 color: Colors.white,
               )),
-              Container(
-                child: Padding(
-                  padding: EdgeInsets.symmetric(horizontal: 22.0),
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: <Widget>[
-                      Material(
-                        borderRadius: BorderRadius.circular(20.0),
-                        elevation: 4.0,
-                        color: Theme.of(context).primaryColor,
-                        child: Padding(
-                          padding: EdgeInsets.all(20.0),
-                          child: Icon(
-                            FontAwesomeIcons.heart,
-                            color: Colors.white,
-                          ),
-                        ),
-                      ),
-                      SizedBox(
-                        width: 24.0,
-                      ),
-                      Expanded(
-                        child: Material(
-                          borderRadius: BorderRadius.circular(20.0),
-                          elevation: 4.0,
-                          color: Theme.of(context).primaryColor,
-                          child: Padding(
-                            padding: EdgeInsets.all(20.0),
-                            child: Text(
-                              'Adoption',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 18.0,
-                              ),
-                              textAlign: TextAlign.center,
-                            ),
-                          ),
-                        ),
-                      )
-                    ],
-                  ),
-                ),
-                height: 150,
-                decoration: BoxDecoration(
-                  color: Theme.of(context).primaryColor.withOpacity(0.06),
-                  borderRadius: BorderRadius.only(
-                    topRight: Radius.circular(30.0),
-                    topLeft: Radius.circular(30.0),
-                  ),
-                ),
-              )
             ],
           ),
           Padding(
