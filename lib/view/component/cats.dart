@@ -137,7 +137,7 @@ class Cats extends StatelessWidget {
       ),
 
       Animal(
-        name: 'Scottish Folds',
+        name: 'Scottish',
         scientificName: 'Abyssinian cat',
         age: '11-14',
         distanceToUser: '0.8 km',
@@ -168,165 +168,165 @@ class Cats extends StatelessWidget {
         backgroundColor: Color.fromRGBO(174, 215, 206, 1),
       ),
 
-      Animal(
-        name: 'Abyssinians',
-        scientificName: 'Abyssinian cat',
-        age: '12-16',
-        distanceToUser: '0.8 km',
-        description: 'Abyssinians have a short, ticked coat and are known for their active and playful nature. They are intelligent cats that enjoy being involved in their owners activities. Abyssinians form strong bonds with their families.',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat11,
-          // scale: 3.2,
+      // Animal(
+      //   name: 'Abyssinians',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '12-16',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Abyssinians have a short, ticked coat and are known for their active and playful nature. They are intelligent cats that enjoy being involved in their owners activities. Abyssinians form strong bonds with their families.',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat11,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: 'Russian Blues',
-        scientificName: 'Abyssinian cat',
-        age: '15-20',
-        distanceToUser: '0.8 km',
-        description: 'Russian Blues have a short, dense, and bluish-gray coat. They are gentle and reserved cats that form strong bonds with their families. Russian Blues are known for their intelligence and independence.',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat12,
-          // scale: 3.2,
+      // Animal(
+      //   name: 'Russian Blues',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '15-20',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Russian Blues have a short, dense, and bluish-gray coat. They are gentle and reserved cats that form strong bonds with their families. Russian Blues are known for their intelligence and independence.',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat12,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: 'Birmans',
-        scientificName: 'Abyssinian cat',
-        age: '12-16',
-        distanceToUser: '0.8 km',
-        description: 'Birmans are medium to large-sized cats with a semi-longhaired coat. They have a sturdy and muscular build with a broad chest and medium-sized legs. Their most distinctive feature is their striking blue almond-shaped eyes. The coat is usually cream or fawn in color with darker points on the ears, face, legs, and tail.',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat13,
-          // scale: 3.2,
+      // Animal(
+      //   name: 'Birmans',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '12-16',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Birmans are medium to large-sized cats with a semi-longhaired coat. They have a sturdy and muscular build with a broad chest and medium-sized legs. Their most distinctive feature is their striking blue almond-shaped eyes. The coat is usually cream or fawn in color with darker points on the ears, face, legs, and tail.',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat13,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' silky coat',
-        scientificName: 'Abyssinian cat',
-        age: '12-16',
-        distanceToUser: '0.8 km',
-        description: 'They are affectionate, gentle cats with a friendly and docile personality. Birmans enjoy interactive play and are often described as social and people-oriented.',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat14,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' silky coat',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '12-16',
+      //   distanceToUser: '0.8 km',
+      //   description: 'They are affectionate, gentle cats with a friendly and docile personality. Birmans enjoy interactive play and are often described as social and people-oriented.',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat14,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' Somalis',
-        scientificName: 'Abyssinian cat',
-        age: '10-12',
-        distanceToUser: '0.8 km',
-        description: 'Somalis have a semi-long, fox-like coat and a playful and active nature. They are intelligent cats that enjoy interactive play and mental stimulation. Somalis are known for their curiosity and agility..',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat15,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' Somalis',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '10-12',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Somalis have a semi-long, fox-like coat and a playful and active nature. They are intelligent cats that enjoy interactive play and mental stimulation. Somalis are known for their curiosity and agility..',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat15,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' Norwegian Forest',
-        scientificName: 'Abyssinian cat',
-        age: '14-16',
-        distanceToUser: '0.8 km',
-        description: 'Norwegian Forest cats have a thick, double-layered coat and tufted ears. They are large, sturdy cats with a gentle and friendly demeanor. Norwegian Forest cats are known for their love of climbing and outdoor exploration',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat16,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' Norwegian Forest',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '14-16',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Norwegian Forest cats have a thick, double-layered coat and tufted ears. They are large, sturdy cats with a gentle and friendly demeanor. Norwegian Forest cats are known for their love of climbing and outdoor exploration',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat16,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' British Shorthairs',
-        scientificName: 'Abyssinian cat',
-        age: '12-20',
-        distanceToUser: '0.8 km',
-        description: 'British Shorthairs have a solid and muscular body with a broad chest and short legs. They have a round face with full cheeks, large round eyes, and a short nose. The most iconic feature of British Shorthairs is their dense and plush coat, which comes in various colors and patterns, including solid, tabby, tortoiseshell, and colorpoint',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat17,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' British Shorthairs',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '12-20',
+      //   distanceToUser: '0.8 km',
+      //   description: 'British Shorthairs have a solid and muscular body with a broad chest and short legs. They have a round face with full cheeks, large round eyes, and a short nose. The most iconic feature of British Shorthairs is their dense and plush coat, which comes in various colors and patterns, including solid, tabby, tortoiseshell, and colorpoint',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat17,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' Devon Rex',
-        scientificName: 'Abyssinian cat',
-        age: '9-15',
-        distanceToUser: '0.8 km',
-        description: 'Devon Rex cats have a curly, soft coat and large ears. They are playful, mischievous, and highly active cats. Devon Rex cats are known for their social nature and ability to adapt well to different environments',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat18,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' Devon Rex',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '9-15',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Devon Rex cats have a curly, soft coat and large ears. They are playful, mischievous, and highly active cats. Devon Rex cats are known for their social nature and ability to adapt well to different environments',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat18,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' Exotic Shorthairs ',
-        scientificName: 'Abyssinian cat',
-        age: '12-15',
-        distanceToUser: '0.8 km',
-        description: 'Exotic Shorthairs have a distinct appearance with a sturdy and muscular build. They have a round and broad face with a flat nose and large, round, and expressive eyes. Their dense and plush coat is short in length, similar to that of the American',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat19,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' Exotic Shorthairs ',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '12-15',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Exotic Shorthairs have a distinct appearance with a sturdy and muscular build. They have a round and broad face with a flat nose and large, round, and expressive eyes. Their dense and plush coat is short in length, similar to that of the American',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat19,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
-      Animal(
-        name: ' Burmese',
-        scientificName: 'Abyssinian cat',
-        age: '14-16',
-        distanceToUser: '0.8 km',
-        description: 'Burmese cats have a compact body and a short, satin-like coat. They are affectionate, intelligent, and enjoy being around people. Burmese cats are known for their social nature and make excellent companions',
-        isFemale: true,
-        image: Image.asset(
-          AssetsManager.cat20,
-          // scale: 3.2,
+      // Animal(
+      //   name: ' Burmese',
+      //   scientificName: 'Abyssinian cat',
+      //   age: '14-16',
+      //   distanceToUser: '0.8 km',
+      //   description: 'Burmese cats have a compact body and a short, satin-like coat. They are affectionate, intelligent, and enjoy being around people. Burmese cats are known for their social nature and make excellent companions',
+      //   isFemale: true,
+      //   image: Image.asset(
+      //     AssetsManager.cat20,
+      //     // scale: 3.2,
 
-          width: w * 0.4,
-        ),
-        backgroundColor: Color.fromRGBO(174, 215, 206, 1),
-      ),
+      //     width: w * 0.4,
+      //   ),
+      //   backgroundColor: Color.fromRGBO(174, 215, 206, 1),
+      // ),
 
 
 
